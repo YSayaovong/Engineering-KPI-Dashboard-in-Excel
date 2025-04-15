@@ -1,44 +1,41 @@
-# 🛠️ Engineering Project Error Tracking & KPI Dashboard (Excel)
+# 🛠️ Engineering Project Tracker – Excel KPI Dashboard
 
-This Excel-based dashboard tracks project phase completion, error flagging, and delivery performance across various engineering design tasks.
-
----
-
-## 💼 Built For
-
-- Manufacturing & mechanical design teams
-- Quality assurance or project leads
-- Operations analysts seeking Excel-only dashboards
+A senior-level Excel dashboard to track project phases, deadlines, errors, and delivery accuracy in mechanical detailing workflows. Built entirely in Excel with dynamic formulas, conditional formatting, and automated visuals.
 
 ---
 
-## 🧩 Features
+## 🔍 Purpose
 
-- Interactive slicers (Assigned To, Phase, Error Flag)
-- Pivot Table KPI Summary:
-  - % Completed
-  - % On-Time
-  - % with Errors
-- Charts:
-  - Error distribution by phase
-  - Delivery trends over time
-- Conditional formatting:
-  - Late items flagged in red
-  - Errors highlighted per row
-- Auto-updating dashboard view using Excel Tables
+Engineering teams often lack real-time visibility into task completion, overdue items, and error trends. This project solves that with a centralized Excel tracker, suitable for non-coders and executive leads.
 
 ---
 
-## 📁 File Overview
+## 📊 Features
 
-engineering-error-dashboard/ ├── Mock_Project_Tracking.xlsx ├── README.md └── images/ ├── dashboard_kpis.png └── bar_errors_by_phase.png
-
+- Status-based color logic: Completed ✅, On Track 🟡, Overdue ❌  
+- Error tracking by part and level  
+- Auto-updating KPI summary:  
+  - Total Projects  
+  - Completed %  
+  - Overdue Count  
+  - Error %  
+- Dashboard visuals:  
+  - Project status breakdown (bar chart)  
+  - Error trends (if applicable)
 
 ---
 
-## 👤 Created by
+
+## 💼 Business Value
+
+- Streamlines project tracking for engineering managers  
+- Fully Excel-based—no external software needed  
+- Can be expanded with VBA, slicers, or Power BI
+
+---
+
+## 👤 Author
 
 **Yengkong Sayaovong**  
 📧 ysayaovong@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/YengkongSayaovong)
-
