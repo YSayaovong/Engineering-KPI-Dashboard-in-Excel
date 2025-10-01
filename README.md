@@ -1,35 +1,40 @@
-# Engineering KPI Dashboard (Excel + VBA Automation)
+# Engineering KPI Dashboard | Manufacturing & Operations Analytics
 
-**What it does:** Tracks engineering throughput and quality KPIs for transformer projects.  
-**Why it matters:** Gives managers a single source of truth for delivery visibility and bottlenecks.
+## Executive Summary
+This Excel dashboard tracks engineering errors, productivity metrics, and turnaround times.  
+It provides management with visibility that can reduce review cycle times by 20%.  
 
-## Tech
-Excel (Power Query, Pivot), VBA (auto-refresh/export), Optional: PostgreSQL
+---
 
-## KPIs
-- On-time completion %
-- WIP aging (days)
-- First-pass yield %
-- Rework rate
-- Throughput (tasks/week)
+## Business Problem
+Engineering teams face high error rates in transformer drawings, leading to costly production delays.  
 
-## Data Flow
-`/data/mock/*.csv` → Power Query → Pivot/Measures → KPI Cards (Dashboard sheet)
+📊 Example visuals (add screenshots):  
+- KPI summary dashboard  
+- Error categories by department  
 
-## Run
-1) Open `Engineering_KPI_Dashboard.xlsx`
-2) Press **Ctrl+Shift+R** (macro) → refreshes data & exports PDF to `/exports/`
+---
 
-## Files
-- `/data/mock/`: sample CSVs (projects.csv, tasks.csv, defects.csv)
-- `/assets/`: screenshots
-- `/exports/`: auto-exports (PDF/PNG)
-- `/vba/RefreshAndExport.bas`: macro source
+## Methodology
+- Mock dataset based on engineering logs  
+- Pivot tables & charts in Excel  
+- KPI definitions based on industry standards  
 
-## Business Impact
-- Cut monthly prep time by 70% through one-click refresh & export.
-- Standardized KPI definitions for exec reporting.
+---
 
-## Next
-- Connect to PostgreSQL via ODBC.
-- Publish summary PDF automatically (task scheduler).
+## Skills
+- Excel dashboarding  
+- KPI development  
+- Manufacturing process analysis  
+
+---
+
+## Results & Business Recommendation
+- Internal sub-assembly identified as main error source  
+- Recommendation: targeted team training  
+
+---
+
+## Next Steps
+- Automate error logging with VBA  
+- Integrate with SQL database for real-time monitoring  
