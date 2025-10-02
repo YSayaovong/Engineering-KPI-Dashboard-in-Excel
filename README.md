@@ -9,10 +9,8 @@ It provides management with visibility that can reduce review cycle times by 20%
 ## Business Problem
 Engineering teams face high error rates in transformer drawings, leading to costly production delays.  
 
-📊 Example visuals (add screenshots):  
 - KPI summary dashboard  
-- Error categories by department  
-
+- Error categories
 ---
 
 ## Methodology
